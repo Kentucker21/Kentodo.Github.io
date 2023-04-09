@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.3.0/css/all.min.css"> 
+    <link rel="stylesheet" href="/css/portfolio projects/todo-list.css">
+    <title>Todo list</title>
+</head>
+<body>
+   <main>
+   
+    <form >
+        <h1 class="main-title">KenTodo</h1>
+        <label for="Todoinput" class="labelforTodo">Enter a Todo</label> <br>
+        <input type="text" id="Todoinput" placeholder='Enter here' class="Todo-input-style" required> <br>
+        <button class="submit-todo-btn">Add Task</button>
+    </form>
+    <div class="todo-section">
+        <div class="mytodo-wrapper">
+            <h1>Todos</h1>
+            <ul class="list-container">
+                <div class="Atodo">
+                    
+                    <li class="todo-inner" >Do something </li>
+                    <div class="functionbuttons">
+                        <input type="checkbox" name="complete" id="completeCheck" class="checkbox-style">
+                    <i class="fa-solid fa-trash"></i>
+                    </div>
+                    
+                </div>
+                <div class="Atodo">
+                    
+                    <li class="todo-inner" >Do something </li>
+                    <div class="functionbuttons">
+                        <input type="checkbox" name="complete" id="completeCheck" class="checkbox-style">
+                    <i class="fa-solid fa-trash"></i>
+                    </div>
+                    
+                </div>
+               
+            </ul>
+        </div>
+      
+        <aside>
+            <h1>completed</h1>
+            <ul class="completed-list">
+                <li class="comtodo">Do something </li>
+               
+            </ul>
+           </aside>
+    </div>
+    
+   </main> 
+   
+</body>
+<script src="/js/portfolio projects/todo-list.js" defer></script>
+</html>
